@@ -12,9 +12,18 @@ SSO(Single Sign On)
 3.[Using Shiro with an LDAP Server](http://isis.apache.org/components/security/shiro/using-ldap.html)<br/>
 
 ###NTLM
-[https://code.google.com/p/ntlm-java/](https://code.google.com/p/ntlm-java/) Microsoft NT LAN Manager (NTLM) Authentication Protocol implementation in java.<br/>
-[http://waffle.codeplex.com/](http://waffle.codeplex.com/) WAFFLE: Windows Authentication Framework (now only windows OS is supported)<br/>
-[http://jcifs.samba.org/](http://jcifs.samba.org/) an Open Source client library that implements the CIFS/SMB networking protocol in 100% Java<br/>
-[http://www.ioplex.com/jespa.html](http://www.ioplex.com/jespa.html) Jespa - Java Active Directory Integration<br/>
-[http://davenport.sourceforge.net/ntlm.html](http://davenport.sourceforge.net/ntlm.html) The NTLM Authentication Protocol and Security Support Provider<br/>
+[https://code.google.com/p/ntlm-java/](https://code.google.com/p/ntlm-java/) <br/>
+Microsoft NT LAN Manager (NTLM) Authentication Protocol implementation in java.<br/>
+
+[http://waffle.codeplex.com/](http://waffle.codeplex.com/) <br/>
+WAFFLE: Windows Authentication Framework (now only windows OS is supported)<br/>
+
+[http://jcifs.samba.org/](http://jcifs.samba.org/) <br/>
+JCIFS is an Open Source client library that implements the CIFS/SMB networking protocol in 100% Java<br/>
+
+[http://www.ioplex.com/jespa.html](http://www.ioplex.com/jespa.html) <br/>
+Jespa - Java Active Directory Integration<br/>
+
+[http://davenport.sourceforge.net/ntlm.html](http://davenport.sourceforge.net/ntlm.html) <br/>
+The NTLM Authentication Protocol and Security Support Provider<br/>
 
