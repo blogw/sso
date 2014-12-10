@@ -2,14 +2,18 @@ SSO(Single Sign On)
 ===
 
 ### Active Directory install & config
-1.[Win2012-AD-Install.xlsx](https://github.com/blogw/sso/blob/master/AD/Win2012-AD-Install.xlsx?raw=true)<br/>
-2.[C# AD(Active Directory)域信息同步，组织单位、用户等信息查询](http://www.cnblogs.com/zhongweiv/archive/2012/12/15/ad_sync.html)<br/>
+1.[Win2012-AD-Install.xlsx](https://github.com/blogw/sso/blob/master/AD/Win2012-AD-Install.xlsx?raw=true)
+
+2.[C# AD(Active Directory)域信息同步，组织单位、用户等信息查询](http://www.cnblogs.com/zhongweiv/archive/2012/12/15/ad_sync.html)
+
 3.加入域的时候，虚拟机不能用NAT，需要用桥接方式
 
 ### Apache Directory Studio
-1.eclipse-indigo install ok,after indigo not worked<br/>
-2.[Troubleshooting LDAP Connections to Active Directory Using Apache Directory Studio](https://jamfnation.jamfsoftware.com/article.html?id=224)<br/>
-3.[Using Shiro with an LDAP Server](http://isis.apache.org/components/security/shiro/using-ldap.html)<br/>
+1.eclipse-indigo install ok,after indigo not worked
+
+2.[Troubleshooting LDAP Connections to Active Directory Using Apache Directory Studio](https://jamfnation.jamfsoftware.com/article.html?id=224)
+
+3.[Using Shiro with an LDAP Server](http://isis.apache.org/components/security/shiro/using-ldap.html)
 
 ### NTLM
 [https://code.google.com/p/ntlm-java/](https://code.google.com/p/ntlm-java/) last Update 2011<br/>
@@ -38,6 +42,11 @@ test JCIFS，only support NTLMv1
 test Jespa，support NTLMv2
 
         first run SetupWizard.vbs(use domain administrator account) to create WEB-INF/jespa.properties
+### adshiro
+1.test pure java ldap login
+
+2.test shiro ldap login
+
 ### Todo
 - [ ] xxxxx
     - [x] aaa
