@@ -27,6 +27,17 @@ Jespa - Java Active Directory Integration<br/>
 [http://davenport.sourceforge.net/ntlm.html](http://davenport.sourceforge.net/ntlm.html) <br/>
 The NTLM Authentication Protocol and Security Support Provider<br/>
 
+### NTLM1
+test JCIFS，only support NTLMv1
+
+        REGEDIT4
+        [HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa]
+        "LMCompatibilityLevel"=dword:00000001
+
+### NTLM2
+test Jespa，support NTLMv2
+
+        first run SetupWizard.vbs to create WEB-INF/jespa.properties
 ### Todo
 - [ ] xxxxx
     - [x] aaa
