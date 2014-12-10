@@ -37,7 +37,7 @@ test JCIFS，only support NTLMv1
 ### NTLM2
 test Jespa，support NTLMv2
 
-        first run SetupWizard.vbs to create WEB-INF/jespa.properties
+        first run SetupWizard.vbs(use domain administrator account) to create WEB-INF/jespa.properties
 ### Todo
 - [ ] xxxxx
     - [x] aaa
