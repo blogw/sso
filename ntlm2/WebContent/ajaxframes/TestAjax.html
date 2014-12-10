@@ -1,0 +1,46 @@
+<html>
+<head>
+<script type="text/javascript">
+
+function AsyncRequest(method, url, params, element) {
+
+	this.update = function() {
+		var req = null;
+		if (window.XMLHttpRequest) {
+			req = new XMLHttpRequest();
+		} else {
+			req = new ActiveXObject("Microsoft.XMLHTTP");
+		}
+		req.onreadystatechange = function() {
+			if (req.readyState == 4 && req.status == 200) {
+				document.getElementById(element).innerHTML += req.responseText;
+			}
+		}
+		req.open(method, url, true);
+		if (method == "POST") {
+			req.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+			req.setRequestHeader("Content-length", params.length);
+//			req.setRequestHeader("Connection", "close");
+		}
+		req.send(params);
+	}
+}
+
+function doPosts() {
+	for (i = 0; i < 3; i++) {
+		var timestamp = new Date();
+		var areq = new AsyncRequest("POST", "TestAjaxWhoami.jsp", "timestamp=" + timestamp, "p0");
+		areq.update();
+	}
+}
+
+</script>
+</head>
+<body onload="doPosts()">
+<form>
+<input type="button" value="Submit POSTs" onclick="doPosts()"/>
+</form>
+<span id="p0">
+</span>
+</body>
+</html>
